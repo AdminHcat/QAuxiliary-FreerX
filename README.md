@@ -1,16 +1,13 @@
 <div align="center">
-    <h1> QAuxiliary </h1>
+    <h1> QAuxiliary-FreerX </h1>
 
 [![GitHub release](https://img.shields.io/github/release/cinit/QAuxiliary.svg)](https://github.com/cinit/QAuxiliary/releases/latest)
-[![Telegram](https://img.shields.io/static/v1?label=Telegram&message=Channel&color=0088cc)](https://t.me/QAuxiliary)
-[![Telegram](https://img.shields.io/static/v1?label=Telegram&message=CI&color=0088cc)](https://t.me/QAuxiliary_CI)
-[![Telegram](https://img.shields.io/static/v1?label=Telegram&message=Chat&color=0088cc)](https://t.me/QAuxiliaryChat)
 
 </div>
 
 ---
 
-QAuxiliary 是一个基于 QNotified 的开源 Xposed 模块
+FreerX是开源 Xposed 模块 QAuxiliary 更自由的分支，移除了部分限制
 
 ## 使用方法
 
