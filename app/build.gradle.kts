@@ -74,11 +74,11 @@ android {
                     )
                 }
                 val flags = arrayOf(
-                    "-Wall",
                     "-Qunused-arguments",
                     "-fno-rtti",
                     "-fvisibility=hidden",
                     "-fvisibility-inlines-hidden",
+                    "-fno-omit-frame-pointer",
                     "-Wno-unused-value",
                     "-Wno-unused-variable",
                     "-Wno-unused-command-line-argument",
@@ -197,7 +197,7 @@ dependencies {
     implementation("com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
-    implementation("com.github.LuckyPray:DexKit-Android:1.2.1")
+    implementation("com.github.LuckyPray:DexKit-Android:1.2.2")
 }
 
 val adb: String = androidComponents.sdkComponents.adb.get().asFile.absolutePath
